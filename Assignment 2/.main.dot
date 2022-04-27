@@ -1,7 +1,7 @@
 strict digraph root {
     "n0" [ id="70d0b4c6100d444c9e7385f881a78444", label="n0:root"  ]
     "n1" [ id="12ba6ba078f74152a937c84a1532cfd0", label="n1:state" , name="Greeting", message="What would you like to do?" ]
-    "n2" [ id="4adf6bf779dd4b8f9cd188a3aa676da8", label="n2:state" , name="Quit", message="Quitting..." ]
+    // "n2" [ id="4adf6bf779dd4b8f9cd188a3aa676da8", label="n2:state" , name="Quit", message="Quitting..." ]
     "n3" [ id="2197ceff26f54bbe81feef3473320c6a", label="n3:state" , name="General Business Querries", message="How can I help you?" ]
     "n4" [ id="95e9986f387e496bb1c49350ced3aee3", label="n4:aboutstate" , name="Office Hours" ]
     "n5" [ id="c2a9205b1ee64b748664089e33868ee3", label="n5:aboutstate" , name="Payment Method" ]

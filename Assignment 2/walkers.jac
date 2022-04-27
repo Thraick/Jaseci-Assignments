@@ -1,7 +1,10 @@
 walker talker {
     has utterance;
 
-    if(here.name == "Quit"): disengage;
+    if(utterance == "Quit"){
+        std.out("Quitting");
+        disengage;
+    }
     utterance = std.input("> ");
 
     state {

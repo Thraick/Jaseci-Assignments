@@ -32,8 +32,8 @@ graph main_graph {
                                 prompts = ["General business", "Service", "Appointment", "Quit"]
         );
 
-        quit_node = spawn node::state(name="Quit", message="Quitting...", prompts="");
-        main_root -[transition(intent="quit")]->quit_node;
+        // quit_node = spawn node::state(name="Quit", message="Quitting...", prompts="");
+        // main_root -[transition(intent="quit")]->quit_node;
 
 
         // General Business Queries //
