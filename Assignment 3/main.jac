@@ -26,7 +26,7 @@ API:                     alias list
 Create dot file:         jsctl graph get -mode dot -o .main.dot
 Dot File Graphviz:       dot -Tpdf .main.dot -o .main.pdf 
                          dot -Tpng .main.dot -o .main.png
-
+                        jsctl jac dot main.jac -o .main.dot
 load jaseci_kit         actions load module jaseci_kit.use_qa
 
 Dot and Jac is case sensitive

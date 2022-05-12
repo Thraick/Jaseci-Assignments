@@ -30,7 +30,7 @@ walker talker {
 
     report {"utterance" : utterance, "chosen_intent": chosen_intent, "scores": a_scores};
 
-
+    
     state {
         if (here.name == "Greeting"){
             take -[transition(intent == chosen_intent)]-> node::infodata else {
